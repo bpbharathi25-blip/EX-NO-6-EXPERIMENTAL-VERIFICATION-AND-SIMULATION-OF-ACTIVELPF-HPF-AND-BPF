@@ -1,17 +1,7 @@
 # EX-NO-6-EXPERIMENTAL-VERIFICATION-AND-SIMULATION-OF-ACTIVELPF-HPF-AND-BPF
-## 6 DESIGN OF ACTIVE LOW PASS, HIGH PASS AND BAND PASS FILTERS USING OP-AMP
-            
-**DATE:**  
-         
----
 
-## AIM
-            
-**DATE:**  
-         
----
-
-## AIM and obtain the frequency response of
+## AIM 
+Obtain the frequency response of
 
 i)	First order Low Pass Filter (LPF)
 ii)	First order High Pass Filter (HPF)
@@ -19,9 +9,7 @@ iii)	Band pass filter
 
 ---
 
-** 6 A :- LOW PASS FILTER**
-
-
+## 6 A :- LOW PASS FILTER**
 
 ## THEORY
 ## LOW PASS FILTER
@@ -50,18 +38,7 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ## DESIGN
 
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
-For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
-Transfer function of second order butterworth LPF as:
-1.586
- 
-H(s) =
- 
-S2 + 1.414 s + 1
- 
-Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
-Let Ri = 10 KΩ, then Rf = 5.86 KΩ
-
+<img width="1080" height="895" alt="image" src="https://github.com/user-attachments/assets/d84ba636-2e2d-4ce6-b3ab-4524de41188c" />
 
 ## PROCEDURE
 
@@ -72,31 +49,16 @@ PROCEDURE - (LPF):
 4.	Tabulate the output voltage Vo with respect to different values of input frequency.
 5.	Calculate passband gain and plot the graph of frequency versus voltage gain & check the graph to get approximately the same characteristic as shown in the model graph.
 
-
-
 ## TABULATION
 
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
-		
+<img width="978" height="1001" alt="image" src="https://github.com/user-attachments/assets/4c09964d-0bb1-41e7-a1b6-bc102f4d949d" />
 
----
+## GRAPH
+<img width="1097" height="882" alt="image" src="https://github.com/user-attachments/assets/082227e4-6f0c-493f-b156-def02e6ef62a" />
 
-## OUT PUT WAVEFORM AND DISCUSSION 
 
----
+## OUT PUT WAVEFORM 
+<img width="1917" height="884" alt="image" src="https://github.com/user-attachments/assets/5a9f2964-b6d2-4e70-9e4e-4698b8af878e" />
 
  ## 6 B HIGH PASS FILTER
 
@@ -132,19 +94,7 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 ---
 
 ## DESIGN
-
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
-For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
-Transfer function of second order butterworth LPF as:
-1.586
- 
-H(s) =
- 
-S2 + 1.414 s + 1
- 
-Now	Ao = 1 + (Rf / R1) = 1.586 = 1 + 0.586
-Let Ri = 10 KΩ, then Rf = 5.86 KΩ
-
+<img width="1036" height="964" alt="image" src="https://github.com/user-attachments/assets/91ca1f47-b56c-4b88-bc3e-2357cbd3f785" />
 
 ## PROCEDURE
 
@@ -156,28 +106,18 @@ PROCEDURE - ( HPF):
 5.	Calculate passband gain and plot the graph of frequency versus voltage gain & check the graph to get approximately the same characteristic as shown in the model graph.
 
 
-
 ## TABULATION
 
 		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+<img width="1080" height="1042" alt="image" src="https://github.com/user-attachments/assets/9914a7ce-071a-4ec6-88e7-b910e028bce1" />
 
 ---
+## GRAPH
+<img width="1071" height="825" alt="image" src="https://github.com/user-attachments/assets/aeee56d7-6543-47c9-a9c7-79b8870c0cca" />
 
-## OUT PUT WAVEFORM AND DISCUSSION 
+
+## OUT PUT WAVEFORM 
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/fe71097a-a331-4c75-bc25-c6d00f4388ed" />
 
 ---
 
@@ -211,23 +151,14 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 
 <img width="1055" height="537" alt="image" src="https://github.com/user-attachments/assets/f5eec55a-c00c-4eaf-a680-81ba95f66490" />
 
-
 ---
 
 ## DESIGN
 
 DESIGN: BAND PASS FILTER
 
-Design a BPF to pass a band of 400Hz to 2KHz with a pass band gain of 4.
-1.	Select the highest cut-off frequency of LPF as fH = 10 KHz and the lowest cut-off frequency of HPF as fL = 1 KHz.
-2.	Design the HPF first by taking fL = 1KHz. Assume the value of C < 1μf. Let C = 0.1μf.
-3.	Calculate R from the expression. Given: fH = 2KHz = 1/ (2πR1C1) Let C1 = 0.1 µF, R1 = 7.9 KΩ
-Given: fL = 400Hz = 1/ (2πR2C2)
-Let C2 = 0.1 µF, R2 = 39.8 KΩ
-Pass band Gain=4
-Now		Ao = 1 + (Rf / R1) 2-1=(Rf / Ri)
-Ri = Rf
-Let Ri = Rf = 10 KΩ
+<img width="887" height="745" alt="image" src="https://github.com/user-attachments/assets/d79ef725-126a-4c2b-a67c-4dfe1d434042" />
+
 
 
 ## PROCEDURE
@@ -245,29 +176,22 @@ PROCEDURE:BAND PASS FILTER
 ## TABULATION
 
 		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+<img width="1080" height="1180" alt="image" src="https://github.com/user-attachments/assets/b1ef22ab-7150-4b86-9d7b-f00b329a7c44" />
+
 
 ---
+## GRAPH
+<img width="1032" height="795" alt="image" src="https://github.com/user-attachments/assets/052a6bbb-7512-442f-b103-fb30da6f1247" />
 
-## OUT PUT WAVEFORM AND DISCUSSION 
+
+## OUT PUT WAVEFORM 
+<img width="1919" height="884" alt="image" src="https://github.com/user-attachments/assets/22329b32-5fcb-4512-9571-5daf866c3d4a" />
+
 
 ---
-##RESULT:
+## RESULT:
 	Thus an Active Low pass, High pass and Band Pass Filters are designed and
 tested using op-amp IC 741.
----
+
 
    
